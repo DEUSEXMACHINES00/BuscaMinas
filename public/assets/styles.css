@@ -1,0 +1,50 @@
+* {
+    transition: 1s;
+    box-sizing: border-box;
+    font-family: Verdana (sans-serif);
+}
+
+body {   
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background: lightgrey;
+}
+
+table {
+    background: gray;
+    margin: auto;
+}
+
+td {
+    border: rgba(0, 0, 0, 0.25) 1px solid;
+    text-align: center;
+    font-size: 120%;
+    color: white;
+
+}
+
+#juegoNuevo,
+td,
+#minas {
+    box-shadow: inset 3px 3px 0 0 rgba(255, 255, 255, 0.25),
+        inset -3px -3px 0 0 rgba(0, 0, 0, 0.25);
+}
+#juegoNuevo,
+#minas{
+    padding: 10px;
+    margin: 10px;
+}
+#juegoNuevo{
+    background: yellow;
+}
+#minas{
+    background: black;
+    color: red;
+}
+.contenedorAjustes{
+    padding: 10px;
+}
+#confjuego{
+    background: green;
+}
